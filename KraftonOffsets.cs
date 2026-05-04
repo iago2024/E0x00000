@@ -1,4 +1,7 @@
 {
+  // ============================================================
+  // PUBG / BATTLEGROUNDS OFFSETS
+  // ============================================================
   "GAME_UWORLD": "0x1225F938",
   "GAME_UWORLD_IDA": "0x85027E28",
   "GAME_GATE_IDA": "0x83643900",
@@ -36,6 +39,7 @@
   "OFF_PLAYER_CAMERA_MANAGER": "0x4D0",
   "OFF_SHOW_MOUSE_CURSOR": "0x658",
   "OFF_VIEW_TARGET": "0x1050",
+
   "OFF_CAMERA_FOV": "0xA2C",
   "OFF_CAMERA_ROT": "0xA10",
   "OFF_CAMERA_POS": "0xA30",
@@ -89,7 +93,33 @@
   "DECRYPT_ROR_SHIFT": "0x17",
   "DECRYPT_FINAL_XOR": "0xB621EC05",
 
+  // ============================================================
+  // BLOODSTRIKE OFFSETS
+  // ============================================================
   "BLOODSTRIKE_ENTITY_LIST": "0x6E4D0D8",
   "BLOODSTRIKE_CLIENT_ENGINE": "0x65F8DE0",
-  "BLOODSTRIKE_OFF_TEAM": "0x0"
-  }
+  "BLOODSTRIKE_OFF_TEAM": "0x0",
+
+  // ============================================================
+  // COMBAT ARMS OFFSETS (adicionados)
+  // ============================================================
+  "CA_DeviceGame": "0x8478C8",
+  "CA_WorldToScreen": "0x49CE00",
+  "CA_SendToServer": "0x47FAF0",
+  "CA_LTClientEXE": "0x490D20",
+  "CA_DrawPrimitive": "0x7BFC58",
+  "CA_ILTModel": "0x7AED28",
+  "CA_ClientInfoMgr": "0x3846DCAC",
+  "CA_PlayerByIndex": "0x371BAD90",
+  "CA_LocalPlayer": "0x371BBD80",
+  "CA_WeaponMgr": "0x384F362C",
+  "CA_GameClientShell": "0x384725B0",
+  "CA_InterfaceMgr": "0x384F2A34",
+  "CA_ShowFPS": "0x0",
+  "CA_BuildGuid": "0x38472500",
+  "CA_LTCSBase": "0x38472510",
+  "CA_LTClientDLL": "0x38472528",
+  "CA_CClientWeapon_Fire": "0x375653D0",
+  "CA_CClientWeapon_SendWeaponFireMessages": "0x3756AD30",
+  "CA_CClientWeapon_AddImpact": "0x37568800"
+}

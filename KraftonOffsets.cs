@@ -98,7 +98,7 @@
   // ============================================================
   "BLOODSTRIKE_ENTITY_LIST": "0x6E4D0D8",
   "BLOODSTRIKE_CLIENT_ENGINE": "0x65F8DE0",
-  "BLOODSTRIKE_OFF_TEAM": "0x0",
+  "BLOODSTRIKE_OFF_TEAM": "0x2E8",
 
   // ============================================================
   // COMBAT ARMS OFFSETS (adicionados)

@@ -100,26 +100,29 @@
   "BLOODSTRIKE_CLIENT_ENGINE": "0x65F8DE0",
   "BLOODSTRIKE_OFF_TEAM": "0x2E8",
 
-  // ============================================================
-  // COMBAT ARMS OFFSETS (adicionados)
-  // ============================================================
-  "CA_DeviceGame": "0x8478C8",
-  "CA_WorldToScreen": "0x49CE00",
-  "CA_SendToServer": "0x47FAF0",
-  "CA_LTClientEXE": "0x490D20",
-  "CA_DrawPrimitive": "0x7BFC58",
-  "CA_ILTModel": "0x7AED28",
-  "CA_ClientInfoMgr": "0x3846DCAC",
-  "CA_PlayerByIndex": "0x371BAD90",
-  "CA_LocalPlayer": "0x371BBD80",
-  "CA_WeaponMgr": "0x384F362C",
-  "CA_GameClientShell": "0x384725B0",
-  "CA_InterfaceMgr": "0x384F2A34",
-  "CA_ShowFPS": "0x0",
-  "CA_BuildGuid": "0x38472500",
-  "CA_LTCSBase": "0x38472510",
-  "CA_LTClientDLL": "0x38472528",
-  "CA_CClientWeapon_Fire": "0x375653D0",
-  "CA_CClientWeapon_SendWeaponFireMessages": "0x3756AD30",
-  "CA_CClientWeapon_AddImpact": "0x37568800"
+ // ─── POINTBLANK OFFSETS ───
+  "PB_CHARA_MANAGER_G1": "0x1592754",
+  "PB_CHARA_MANAGER_G2": "0x1592758",
+  "PB_SLOT_ARRAY_BASE": "0x1C",
+  "PB_SLOT_STRIDE": "0x04",
+  "PB_WRAPPER_CHARA_BASE_ENC": "0x04",
+  "PB_WRAPPER_CHARA_BASE_KEY": "0x18",
+  "PB_WRAPPER_CHARA_INFO_ENC": "0x0C",
+  "PB_WRAPPER_CHARA_INFO_KEY": "0x20",
+  "PB_INFO_HP": "0x34",
+  "PB_INFO_TEAM": "0x3C",
+  "PB_BATTLE_SLOT_CTX_PTR": "0x15926E0",
+  "PB_NICK_TABLE_OFF": "0x289E4",
+  "PB_GAME_INFO_TREE_OFF": "0xDD0",
+  "PB_GAME_INFO_STRIDE": "0x2310",
+  "PB_GI_ROOT_POS_PTR": "0xCC",
+  "PB_VIEWER_G1": "0x159273C",
+  "PB_VIEWER_G2": "0x1592740",
+  "PB_VIEWER_CAMERA_OFF": "0xE4",
+  "PB_CAMERA_PROJ_OBJ": "0xC0",
+  "PB_CAMERA_VIEW_OBJ": "0xC4",
+  "PB_MATRIX_OFFSET": "0x20"
+
+  
+
 }
